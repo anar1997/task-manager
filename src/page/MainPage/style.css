@@ -1,0 +1,140 @@
+.main-sider {
+  overflow: "auto";
+  height: 100vh;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #263045;
+}
+
+/* .main-sider ul{
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+} */
+
+.main-sider ul li{
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+.main-sider li {
+  list-style-type: none;
+  /* margin-bottom: 20px !important; */
+  padding: 8px !important;
+  border-bottom: 1px solid #888D97;
+  border-radius: 0px !important;
+}
+
+
+.main-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.main-sider li::before{
+  border-bottom: none !important;
+}
+
+.ant-menu-item-selected,
+.ant-menu > .ant-menu-submenu-selected {
+  background-color: #263045 !important;
+  color: white !important;
+  overflow: inherit !important;
+}
+
+.komanda-name{
+  margin-top: 35px !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.komanda-input{
+  background-color: #263045 !important;
+  border: none !important;
+  color: white;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.komanda-input::placeholder{
+  font-weight: 900;
+  color: white;
+}
+
+.komanda-input:focus{
+  background-color: #263045 !important;
+  outline: none;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.komanda-li{
+  margin-top: 80px !important;
+  border-bottom: none !important;
+  width: 100% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.komanda-li-2{
+  border-bottom: none !important;
+  width: 100% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.komanda-li-3{
+  width: 100% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.main-icon{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.komanda-logo{
+  margin-top: 50px !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.logo-div{
+  background-color: #D9D9D9;
+  height: 200px !important;
+  width: 100px !important;
+  border-radius: 20% !important;
+}
+
+.kodaze{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80px !important;
+  text-align: center;
+  margin-top: 340px !important;
+  color: white;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.kodaze p{
+  font-size: 11px !important;
+}
+
+.copyright{
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.content{
+  background-color: #FFFFFF;
+} 
