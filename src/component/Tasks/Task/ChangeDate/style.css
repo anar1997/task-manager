@@ -1,0 +1,18 @@
+.task-button-3{
+    background-color: #263045;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    margin-right: 20px !important;
+    display: inline-block;
+}
+
+.task-button-2:hover{
+    cursor: pointer;
+}

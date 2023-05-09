@@ -1,0 +1,116 @@
+.task{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    /* cursor: pointer; */
+    width: 480px !important;
+    height: 330px !important;
+    /* margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 200px !important; */
+    position: 'absolute';
+    top: '50%';
+    left: '50%'
+}
+
+.task p{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.task-input{
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    width: 210px;
+    margin-bottom: 7px !important;
+}
+
+.task-input:focus{
+    outline: none;
+}
+
+.task-textarea{
+    width: 210px !important;
+    height: 120px !important;
+}
+
+.task select{
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    width: 210px;
+    margin-bottom: 7px !important;
+}
+
+.task select:focus{
+    outline: none;
+}
+
+.task-input-1{
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    width: 210px;
+    margin-top: 70px !important;
+}
+
+.task-input-1:focus{
+    outline: none;
+}
+
+.select-time{
+    width: 210px !important;
+}
+
+.select-time-1{
+    margin-top: 3px !important;
+    width: 210px !important;
+}
+
+.task-button{
+    margin-top: 30px !important;
+    /* margin-right: 10px !important; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-button-1{
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    margin-right: 10px !important;
+    display: inline-block;
+}
+
+.task-button-1:hover{
+    cursor: pointer;
+}
+
+.task-button-2{
+    background-color: #36C213;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    margin-right: 20px !important;
+    display: inline-block;
+}
+
+.task-button-2:hover{
+    cursor: pointer;
+}

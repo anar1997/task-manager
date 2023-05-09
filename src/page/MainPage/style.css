@@ -7,13 +7,14 @@
   background-color: #263045;
 }
 
+
 /* .main-sider ul{
   list-style-type: none;
   padding: 0;
   border: 1px solid #ddd;
 } */
 
-.main-sider ul li{
+.main-sider ul li {
   padding: 8px 16px;
   border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd;
@@ -23,10 +24,9 @@
   list-style-type: none;
   /* margin-bottom: 20px !important; */
   padding: 8px !important;
-  border-bottom: 1px solid #888D97;
+  border-bottom: 1px solid #888d97;
   border-radius: 0px !important;
 }
-
 
 .main-link {
   display: flex;
@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 
-.main-sider li::before{
+.main-sider li::before {
   border-bottom: none !important;
 }
 
@@ -46,7 +46,7 @@
   overflow: inherit !important;
 }
 
-.komanda-name{
+.komanda-name {
   margin-top: 35px !important;
   border-bottom: none !important;
   border-top: none !important;
@@ -55,7 +55,7 @@
   margin-right: auto !important;
 }
 
-.komanda-input{
+.komanda-input {
   background-color: #263045 !important;
   border: none !important;
   color: white;
@@ -63,19 +63,19 @@
   margin-right: auto !important;
 }
 
-.komanda-input::placeholder{
+.komanda-input::placeholder {
   font-weight: 900;
   color: white;
 }
 
-.komanda-input:focus{
+.komanda-input:focus {
   background-color: #263045 !important;
   outline: none;
   border-bottom: none !important;
   border-top: none !important;
 }
 
-.komanda-li{
+.komanda-li {
   margin-top: 80px !important;
   border-bottom: none !important;
   width: 100% !important;
@@ -83,38 +83,42 @@
   margin-left: auto !important;
 }
 
-.komanda-li-2{
+.komanda-li-2 {
   border-bottom: none !important;
   width: 100% !important;
   margin-right: auto !important;
   margin-left: auto !important;
 }
 
-.komanda-li-3{
+.komanda-li-3 {
   width: 100% !important;
   margin-right: auto !important;
   margin-left: auto !important;
 }
 
-.main-icon{
+.main-icon {
   margin-top: auto;
   margin-bottom: auto;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px !important;
+  color: white;
 }
 
-.komanda-logo{
+.komanda-logo {
   margin-top: 50px !important;
   border-bottom: none !important;
   border-top: none !important;
 }
 
-.logo-div{
-  background-color: #D9D9D9;
+.logo-div {
+  background-color: #d9d9d9;
   height: 200px !important;
   width: 100px !important;
   border-radius: 20% !important;
 }
 
-.kodaze{
+.kodaze {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -126,15 +130,39 @@
   margin-right: auto !important;
 }
 
-.kodaze p{
+.kodaze p {
   font-size: 11px !important;
 }
 
-.copyright{
+.copyright {
   margin-top: auto !important;
   margin-bottom: auto !important;
 }
 
-.content{
-  background-color: #FFFFFF;
-} 
+.content {
+  background-color: #ffffff;
+}
+
+.css-1wnsr1i {
+  width: 350px !important;
+  height: 250px !important;
+  padding: 0 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: none !important;
+}
+
+.komanda-div{
+  display: flex;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+  min-width: 10px !important;
+  padding: 0 !important;
+}
+
+.home-page{
+  display: flex;
+  flex-direction: column;
+}

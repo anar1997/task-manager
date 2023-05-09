@@ -1,0 +1,82 @@
+.account{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-img{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+}
+
+.account p{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-weight: bold;
+    margin-top: 30px !important;
+    font-size: 17px !important;
+    color: #263045;
+}
+
+.account-input{
+    border: none;
+    border-bottom: 1px solid #263045;
+    width: 180px;
+    margin-bottom: 7px !important;
+}
+
+.account-input:hover{
+    outline: none;
+}
+
+.account-input:focus{
+    outline: none;
+}
+
+.account-line-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px !important;
+}
+
+.account-line-3-a{
+    margin-bottom: 5px !important;
+    display: flex;
+}
+
+.account-icon{
+    /* margin-top: auto !important; */
+    margin-bottom: 4px !important;
+    font-size: 26px !important;
+    margin-right: 5px !important;
+    color: #263045;
+}
+
+.account-line-4{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px !important;
+}
+
+.account-button{
+    background-color: #263045;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 105px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    margin-right: 20px !important;
+    display: inline-block;
+}
+
+.account-button{
+    cursor: pointer;
+}

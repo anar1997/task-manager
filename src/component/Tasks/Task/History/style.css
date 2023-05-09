@@ -1,0 +1,51 @@
+.task-history{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    /* cursor: pointer; */
+    width: 480px !important;
+    height: 330px !important;
+    /* margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 200px !important; */
+    position: 'absolute';
+    top: '50%';
+    left: '50%'
+}
+
+.task-history p{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.task-table{
+    border: 1px solid #C4C4C4;
+    border-collapse: collapse;
+    /* max-width: 580px !important; */
+    margin-left: 35px !important;
+    margin-right: 35px !important;
+    border-radius: 15px !important;
+    /* margin-top: 50px !important; */
+}
+
+
+.task-table th{
+    border: 1px solid #C4C4C4;
+    border-collapse: collapse;
+    border-radius: 15px !important;
+    padding: 3px !important;
+    height: 30px !important;
+}
+
+.task-table td {
+    border: 1px solid #C4C4C4;
+    border-collapse: collapse;
+    padding: 5px !important;
+    height: 30px !important;
+    border-radius: 15px !important;
+  }

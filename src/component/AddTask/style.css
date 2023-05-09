@@ -1,0 +1,121 @@
+.add-task{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    /* cursor: pointer; */
+    width: 480px !important;
+    height: 330px !important;
+    /* margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 200px !important; */
+    position: 'absolute';
+    top: '50%';
+    left: '50%'
+}
+
+.add-task p{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.add-task-input{
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    width: 210px;
+    margin-bottom: 7px !important;
+}
+
+.add-task-input:focus{
+    outline: none;
+}
+
+.add-task select{
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    width: 210px;
+    margin-bottom: 7px !important;
+}
+
+.add-task select:focus{
+    outline: none;
+}
+
+.task-textarea{
+    width: 190px !important;
+    height: 100px !important;
+    margin-top: 10px !important;
+    border-color: #b4b4b4;
+}
+
+.add-task-button{
+    margin-top: 40px !important;
+    /* margin-right: 10px !important; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-task-button-1{
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    margin-right: 10px !important;
+    display: inline-block;
+}
+
+.add-task-button-1:hover{
+    cursor: pointer;
+}
+
+.add-task-button-2{
+    background-color: #263045;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    margin-right: 20px !important;
+    display: inline-block;
+}
+
+.add-task-button-2:hover{
+    cursor: pointer;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    width: 190px !important;
+}
+
+  .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+    height: 10px !important;
+    padding-top: 10px !important;
+    padding-right: 3px !important;
+    margin-top: 10px !important;
+  } 
+
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border: none !important;
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    padding-top: 0 !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 0 !important;
+}

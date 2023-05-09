@@ -1,0 +1,86 @@
+.add-position{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 400px !important;
+    height: 250px !important;
+    position: 'absolute';
+    top: '50%';
+    left: '50%'
+}
+
+.add-position p{
+    display: flex;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    font-weight: bolder;
+    font-size: 18px !important;
+    color: #263045;
+}
+
+.add-position-input{
+    border: none;
+    border-bottom: 1px solid #263045;
+    width: 270px;
+    /* margin-bottom: 7px !important; */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 30px !important;
+}
+
+.add-position-input:hover{
+    outline: none;
+}
+
+.add-position-input:focus{
+    outline: none;
+}
+
+.add-position-button{
+    /* margin-right: 10px !important; */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 70px !important;
+}
+
+.add-position-button-1{
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    margin-right: 20px !important;
+    display: inline-block;
+}
+
+.add-position-button-1:hover{
+    cursor: pointer;
+}
+
+.add-position-button-2{
+    background-color: #263045;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    width: 95px;
+    height: 30px;
+    border: none;
+    padding-top: 7px !important;
+    padding-bottom: 8px !important;
+    /* margin-right: 20px !important; */
+    display: inline-block;
+}
+
+.add-position-button-2:hover{
+    cursor: pointer;
+}

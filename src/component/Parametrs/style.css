@@ -1,0 +1,29 @@
+.parametrs{
+    width: 100%;
+    height: 100%;
+}
+
+.parametrs-line-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.parametrs-line-1 label{
+    font-weight: bold;
+    font-size: 17px !important;
+}
+
+.parametrs-line-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px !important;
+    padding-top: 20px !important;
+}
+
+.parametrs-line-2a{
+    margin-bottom: 7px !important;
+    font-weight: 500;
+}

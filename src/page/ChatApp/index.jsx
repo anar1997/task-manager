@@ -14,6 +14,9 @@ import "primeicons/primeicons.css"; //icons
 
 import { Editor } from '@tinymce/tinymce-react';
 
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
+
 
 firebase.initializeApp({
   apiKey: "AIzaSyAuKM2inLQRPyprSmOQBmoRH-yQXi_aPjo",
@@ -24,6 +27,12 @@ firebase.initializeApp({
   appId: "1:1043886404888:web:51fdf1e28382ad69905a6d",
   measurementId: "G-N2QRY1FWC9",
 });
+
+const modules = {
+  toolbar: [
+      ["bold", "italic", "underline", "strike", "blockquote"],
+  ]
+}
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
@@ -106,8 +115,8 @@ function ChatRoom() {
     <form className="page-form" onSubmit={sendMessage}>
 
       {/* <input className="page-input" value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="mesajınızı daxil edin..." /> */}
-      {/* <Editor className="page-input" value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="mesajınızı daxil edin..."/> */}
-      <Editor
+      {/* <Editor className="page-input" value={formValue} onChange={setFormValue} placeholder="mesajınızı daxil edin..."/> */}
+      {/* <Editor
         apiKey= "xcg6f5gqt3vbzl0oofjew5r3ty4g946vgma9qj2804i7hpdq"
         authDomain= "chatapp-2c43d.firebaseapp.com"
         projectId= "chatapp-2c43d"
@@ -116,7 +125,8 @@ function ChatRoom() {
         appId= "1:1043886404888:web:51fdf1e28382ad69905a6d"
         measurementId= "G-N2QRY1FWC9"
         value={formValue}
-        onEditorChange={(e) => setFormValue(e)}
+        onEditorChange={setFormValue}
+
         init={{
           width: '100%',
           height: '20px',
@@ -143,7 +153,14 @@ function ChatRoom() {
           content_style:
             'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
         }}
-      />
+      /> */}
+      <ReactQuill
+            theme="snow"
+            value={formValue}
+            onChange={setFormValue}
+            className="page-input"
+            modules={modules}
+          />
       <button className="page-button" onClick={(e) => sendMessage(e)} disabled={!formValue}><IoSendSharp/></button>
 
     </form>
@@ -159,7 +176,7 @@ function ChatMessage(props) {
   return (<>
     <div className={`message ${messageClass}`}>
       <img className="page-img" src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
-      <p className="page-p">{text}</p>
+      <p className="page-p" dangerouslySetInnerHTML={{__html: text}} />
     </div>
   </>)
 }

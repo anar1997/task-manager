@@ -7,6 +7,8 @@ import { Provider } from "react-redux"
 import store from './redux/store';
 import { BrowserRouter } from "react-router-dom";
 import ChatApp from './page/ChatApp';
+import AddTeamMember from './component/AddTeamMember';
+import Showhidetab from './component/ContentPage';
 
 
 const root = ReactDOM.createRoot(
@@ -17,6 +19,7 @@ root.render(
   <Provider store={store}>
     <BrowserRouter>
       <Main />
+      {/* <Showhidetab /> */}
     </BrowserRouter>
   </Provider>
   // </React.StrictMode>
